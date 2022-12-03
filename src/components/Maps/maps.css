@@ -1,0 +1,66 @@
+.maps{
+    margin-top: 100px;
+    color: #070648;
+}
+
+.maps__title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 57px;
+    /* identical to box height, or 130% */
+
+    text-align: left;
+
+    color: #070648;
+}
+
+.timetable{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 0.5px solid #000;
+    padding-bottom: 17px;
+}
+
+.timetable__block{
+    border-left: 3px solid #F86841;
+    padding-left: 8px;
+}
+
+.timetable__block:nth-child(2n){
+    border-left-color: #09B451;
+}
+
+.legend{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.legend .legend__block__title{
+    font-weight: bold;
+}
+
+.legend__block__item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 11px;
+}
+
+.legend__block__item img, .legend__block__item span{
+    margin-right: 15px;
+}
+
+.maps__buttons{
+    margin-top: 30px;
+}
+
+.maps__buttons .button{
+    margin-right: 18px;
+}
+
+.maps__buttons .button-orange{
+    background: #F9896B;
+}

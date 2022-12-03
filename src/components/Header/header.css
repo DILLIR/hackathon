@@ -1,0 +1,48 @@
+.blue{
+    color: #070648;
+}
+
+header{
+    background: url("../../img/header.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    padding-top: 60px;
+    min-height: 480px;
+    background-position: top -10px right;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #2C2C2C;
+}
+
+.header__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #646565;
+    margin: 25px 0px;
+    width: 500px;
+}
+
+.button{
+    background: #070648;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 43px;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background: #050429;
+}

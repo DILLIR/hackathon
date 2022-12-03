@@ -1,0 +1,128 @@
+.orange{
+    color: #F9896B;
+}
+
+.location{
+    background: url("../../img/location.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    padding-top: 200px;
+}
+
+.location__title{
+    font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 57px;
+/* or 136% */
+text-align: center;
+
+color: #070648;
+margin-bottom: 30px;
+
+}
+
+.location .input__block, .location .select__block{
+    width: 100%;
+    border-radius: 6px;
+    background: #FFFFFF;
+    box-shadow: 20px 16px 52px rgba(0, 0, 0, 0.03);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.location .input__block:before{
+    content: " ";
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url("../../img/point.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 4%;
+}
+
+.location .input__block input{
+    min-width: 85%;
+    background: #FFFFFF;
+}
+
+.location .select__block select{
+    width: 95%;
+}
+
+.location .select__block select{
+    outline: none;
+}
+
+.location__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 57px;
+    padding-left: 10px;
+    color: #B1B2B2;
+}
+
+.location .together{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.location .together .location__left{
+    width: 65%;
+}
+
+.location .together .location__right{
+    width: 30%;
+}
+
+.location__subtitle{
+    font-weight: 600;
+font-size: 25px;
+line-height: 57px;
+/* identical to box height, or 228% */
+
+
+color: #070648;
+text-align: center;
+}
+
+.forms{
+    margin-top: 10px;
+}
+
+.location__bubles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.buble{
+    font-weight: 500;
+    font-size: 15px;
+    border: 1.5px solid #B1B2B2;
+    border-radius: 27px;
+    color: #B1B2B2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px 21px;
+    cursor: pointer;
+}
+
+.submit{
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+    background: #070648;
+    border-radius: 6px;
+    padding: 14px 0px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}

@@ -6,6 +6,8 @@ import Header from "./components/Header/Header.jsx";
 import Map from './components/Map/Map'
 import Maps from "./components/Maps/Maps.jsx";
 import House from "./components/House/House.jsx";
+import Team from "./components/Team/Team.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Location></Location>
       <Maps></Maps>
       <House></House>
+      <Team></Team>
+      <Footer></Footer>
     </div>
   );
 }

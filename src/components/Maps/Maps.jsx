@@ -6,14 +6,16 @@ import flag from "../../img/flag.png"
 import house from "../../img/home.svg"
 import crist from "../../img/criss.svg"
 import ua_flag from "../../img/ua_flag.svg"
+import map from '../../img/map.png'
 
 
 export default function Maps() {
   return (
-    <section className='maps'>
+    <section className='maps' id='map'>
         <Container>
             <h2 className="maps__title">Station square - OC Galeria</h2>
-            <Map></Map>
+            <img src={map} alt="" className='place__map'/>
+            {/* <Map></Map> */}
             <div className="timetable">
                 <div className="timetable__block">
                     <b>Tram 3</b><br></br>

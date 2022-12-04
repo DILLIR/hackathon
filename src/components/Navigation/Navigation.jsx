@@ -24,9 +24,9 @@ export const Navigation = () => {
       <Container className={"flex"}>
       <img src={logo} alt="" />
       <div className="menu">
-        <div className="menu__item"><a href="" className="menu__link">About help</a></div>
+        <div className="menu__item"><a href="#header" className="menu__link">About help</a></div>
         <div className="menu__item"><a href="#location" className="menu__link">Get a map</a></div>
-        <div className="menu__item"><a href="" className="menu__link">Contact</a></div>
+        <div className="menu__item"><a href="#team" className="menu__link">Contact</a></div>
       </div>
       <div className="laguage">
         <div className="laguage__item active">EN</div>

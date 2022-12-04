@@ -1,5 +1,9 @@
 .navigation{
     background: #070648;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
     border-bottom: 10px solid;
   border-image-slice: 1;
   border-bottom-width: 5px;

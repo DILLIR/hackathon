@@ -1,0 +1,32 @@
+.team{
+    padding: 20px 0px;
+}
+
+.team .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team__title{
+    font-weight: 600;
+font-size: 32px;
+line-height: 46px;
+
+color: #070648;
+margin-bottom: 35px;
+
+}
+
+.team__text{
+    font-weight: 500;
+font-size: 22px;
+line-height: 32px;
+
+color: #070648;
+
+}
+
+.team__photo img{
+    width: 100%;
+}

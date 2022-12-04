@@ -1,0 +1,126 @@
+.house{
+    padding-top: 40px;
+    background: #070648;
+    background-position: top right;
+    background-size: 100%;
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+.house__title{
+    font-weight: 600;
+font-size: 44px;
+line-height: 23px;
+/* identical to box height, or 52% */
+
+text-align: center;
+margin-top: 100px;
+color: #FFFFFF;
+margin-bottom: 85px;
+}
+
+.house__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.house__img{
+    position: relative;
+}
+.house__img .rating{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.house__img .rating img{
+    margin-right: 6px;
+}
+
+.house__img .time{
+    position: absolute;
+    right: 14px;
+    top: 4px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    padding: 4px 13px;
+}
+
+
+.house__item{
+    width: 303px;
+    background: #FFFFFF;
+    box-shadow: 20px 16px 52px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    position: relative;
+}
+
+.house__text{
+    padding: 15px 30px;
+}
+
+.house__name{
+    font-weight: 500;
+font-size: 26px;
+line-height: 26px;
+/* identical to box height, or 98% */
+
+
+color: #070648;
+
+}
+
+.house__location{
+    font-weight: 400;
+font-size: 12px;
+line-height: 26px;
+/* identical to box height, or 212% */
+
+
+color: #B1B2B2;
+
+}
+
+.house__desc{
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 125% */
+
+
+color: #1C274C;
+}
+
+.house__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 34px;
+}
+
+.house__price .free{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 18px;
+    /* or 40% */
+    
+    
+    color: #F9896B;
+}
+
+.house__price .button{
+    padding: 8px 15px;
+}
+
+.house__alert{
+    margin-top: 65px;font-weight: 600;
+    font-size: 23px;
+    line-height: 33px;
+    /* or 143% */
+    
+    text-align: center;
+    
+    color: #fff;
+    padding-bottom: 84px;
+}

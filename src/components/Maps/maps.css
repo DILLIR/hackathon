@@ -65,3 +65,7 @@
 .maps__buttons .button-orange{
     background: #F9896B;
 }
+
+.place__map{
+    width: 100%;
+}

@@ -5,7 +5,7 @@ import icon from '../../img/icon.png'
 
 export default function Header() {
   return (
-    <header>
+    <header id='header'>
         <Container>
             <div className="header__content">
                 <h1 className="header__title">Here you can build a <br></br>convenient route <br></br><span className='blue'>in Košice</span></h1>

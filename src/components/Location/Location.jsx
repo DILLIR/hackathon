@@ -8,7 +8,7 @@ export default function Location() {
 
   const [value, setValue] = useState("");
 
-  const [type, setType] = useState("Dwelling");
+  const [type, setType] = useState("zastavka");
 
   const [location, setLocation] = useState();
 
@@ -23,7 +23,7 @@ export default function Location() {
   }
 
   return (
-    <section className='location'>
+    <section className='location' id='location'>
       <Container>
           <h2 className='location__title'>Building a route is very easy!<br></br> Specify the <span className='orange'>end</span> point of the destination.</h2>
           <div className="location__subtitle">Most popular queries</div>
@@ -35,9 +35,9 @@ export default function Location() {
               <div className="buble">Main post</div>
           </div> 
           <div className="together forms">
-            <Input className="input__block" handler={setValue} value={value} placeholder={"Кошице Лунік IX"}></Input>
+            <Input className="input__block" handler={setValue} value={value} placeholder={"University Hospital"}></Input>
             <Select hendler={setType} values={type}>
-              <option value="Dwelling" key="option_0" disabled>Category</option>
+              <option value="Categoris" key="option_0" disabled>Category</option>
               <option value="Dwelling" key="option_1">Dwelling</option>
               <option value="Medical facilities" key="option_2">Medical facilities</option>
               <option value="zastavka" key="option_3">Public transport stops</option>

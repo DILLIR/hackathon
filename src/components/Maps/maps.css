@@ -25,6 +25,7 @@
 .timetable__block{
     border-left: 3px solid #F86841;
     padding-left: 8px;
+    font-size: 20px;
 }
 
 .timetable__block:nth-child(2n){

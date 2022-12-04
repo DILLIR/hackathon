@@ -5,6 +5,7 @@ import Location from './components/Location/Location'
 import Header from "./components/Header/Header.jsx";
 import Map from './components/Map/Map'
 import Maps from "./components/Maps/Maps.jsx";
+import House from "./components/House/House.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Header></Header>
       <Location></Location>
       <Maps></Maps>
+      <House></House>
     </div>
   );
 }

@@ -11,15 +11,12 @@ import Footer from "./components/Footer/Footer.jsx";
 
 
 function App() {
-
   
-
   return (
     <div className="App">
       <Navigation></Navigation>
       <Header></Header>
       <Location></Location>
-      <Maps></Maps>
       <House></House>
       <Team></Team>
       <Footer></Footer>

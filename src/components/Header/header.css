@@ -5,10 +5,10 @@
 header{
     background: url("../../img/header.png");
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: 900px;
     padding-top: 120px;
-    min-height: 480px;
-    background-position: top -10px right;
+    min-height: 580px;
+    background-position: top -10px right -175px;
 }
 
 header .container{

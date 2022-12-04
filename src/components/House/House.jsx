@@ -69,7 +69,7 @@ export default function House() {
                         <div className="house__desc">Ready to provide an apartment for those in need</div>
                         <div className="house__price">
                             <div className="free">FREE</div>
-                            <a href="" className="button">Contakt</a>
+                            <a href="" className="button">Contact</a>
                         </div>
                     </div>
                 </div>

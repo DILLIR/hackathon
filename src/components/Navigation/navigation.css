@@ -22,16 +22,22 @@
 }
 
 .navigation .menu__link{
-    color: #fff;
+    color: #ECECEC;
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
+    transition: all 0.3s;
+}
+
+.navigation .menu__link:hover{
+    color: #fff;
+    transition: all 0.3s;
 }
 
 .navigation .menu__item{
     margin-right: 50px;
+    transition: all 0.3s;
 }
 
 .navigation .laguage__item{

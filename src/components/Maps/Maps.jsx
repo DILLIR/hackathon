@@ -7,25 +7,20 @@ import house from "../../img/home.svg"
 import crist from "../../img/criss.svg"
 import ua_flag from "../../img/ua_flag.svg"
 import map from '../../img/map.png'
+import phone from '../../img/phone.svg'
+import zavinac from '../../img/@.svg'
+import scan from '../../img/print.svg'
 
 
-export default function Maps() {
+export default function Maps(props) {
   return (
     <section className='maps' id='map'>
         <Container>
-            <h2 className="maps__title">Station square - OC Galeria</h2>
-            <img src={map} alt="" className='place__map'/>
-            {/* <Map></Map> */}
-            <div className="timetable">
-                <div className="timetable__block">
-                    <b>Tram 3</b><br></br>
-                    22:37 Station square   -  22:40 Liberator square 
-                </div>
-                <div className="timetable__block">
-                    <b>Bus 71</b><br></br>
-                    22:57 Liberator square   -  23:01 OC Galeria
-                </div>
-            </div>
+            {console.log(props)}
+            <h2 className="maps__title">Your Map</h2>
+            {/* <img src={map} alt="" className='place__map'/> */}
+            <Map locations={props.locations} address={props.address} uk={props.uk}></Map>
+            
             <div className="legend">
                 <div className="legend__block">
                     <div className="legend__block__title">Legend</div>
@@ -45,16 +40,16 @@ export default function Maps() {
                 <div className="legend__block">
                     <div className="legend__block__title">Help contact</div>
                     <div className="legend__block__item">
-                        <span>📱</span>
+                        <img src={phone} alt="" className='phone'/>
                         <p>+421 100 000 000</p>
                     </div>
                     <div className="legend__block__item">
-                        <span>📱</span>
+                        <img src={phone} alt="" className='phone'/>
                         <p>+421 100 000 000</p>
                     </div>
                     <div className="legend__block__item">
-                        <span>@</span>
-                        <p>firsthelp@firstimeke.sk</p>
+                    <img src={zavinac} alt="" className='phone phone-zavinac'/>
+                        <p> firsthelp@firstimeke.sk</p>
                     </div>
                 </div>
                 <div className="legend__block">
@@ -63,7 +58,8 @@ export default function Maps() {
             </div>
             <div className="maps__buttons">
                 <a href="" className="button">Download file</a>
-                <a href="" className="button button-orange">Print</a>
+                <a href="" onClick={(e)=>{e.preventDefault(); document.querySelector(".print").classList.add("active"); e.target.style.display = 'none';}} className="button button-orange">Print</a>
+                <img src={scan} alt="" className='print' />
             </div>
         </Container> 
     </section>

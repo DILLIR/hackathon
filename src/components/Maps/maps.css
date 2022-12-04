@@ -50,16 +50,36 @@
     margin-top: 11px;
 }
 
-.legend__block__item img, .legend__block__item span{
+.legend__block__item img{
     margin-right: 15px;
+}
+
+.legend__block__item .phone{
+    margin-right: 2px;
+}
+
+.legend__block__item .phone-zavinac{
+    margin-right: 10px;
 }
 
 .maps__buttons{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.print{
+    display: none;
+    cursor: pointer;
+}
+
+.print.active{
+    display: block;
 }
 
 .maps__buttons .button{
     margin-right: 18px;
+    margin: 3px;
 }
 
 .maps__buttons .button-orange{
